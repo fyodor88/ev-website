@@ -1,0 +1,62 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding-left: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  padding: 2rem;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  color: white;
+}
+.content-section {
+  padding: 2rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  background: #e0f7fa;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 200px;
+}
+.gallery img {
+  width: 30%;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+.quiz-box {
+  margin-top: 1rem;
+}
+.answer-btn {
+  display: block;
+  margin: 0.5rem 0;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
