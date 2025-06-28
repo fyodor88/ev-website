@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EV Battery Swapping</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>EV Battery Swapping</h1>
+    <nav>
+      <ul>
+        <li><a href="#what">What is It?</a></li>
+        <li><a href="#how">How it Works</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#quiz">Quick Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>The Future of Electric Mobility</h2>
+    <p>Learn how battery swapping can revolutionize electric vehicle infrastructure.</p>
+    <p>Electric Vehicle (EV) battery swapping is an innovative technology that allows EV owners to quickly replace their depleted batteries with fully charged ones at specialized swap stations...</p>
+    <button onclick="scrollToSection('what')">Explore More</button>
+  </section>
+
+  <section id="what" class="content-section">
+    <h2>What is Battery Swapping?</h2>
+    <p>Battery swapping allows quick replacement of depleted EV batteries with fully charged ones, drastically reducing wait time and enabling 24/7 mobility.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NHlZTKCbgyc" title="YouTube video" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </section>
+
+  <section id="how" class="content-section">
+    <h2>How Does It Work?</h2>
+    <ul>
+      <li>Drive into a battery swap station</li>
+      <li>The old battery is automatically removed</li>
+      <li>A fresh, charged battery is inserted</li>
+      <li>You're back on the road within minutes</li>
+    </ul>
+  </section>
+
+  <section id="benefits" class="content-section highlight">
+    <h2>Benefits of Battery Swapping</h2>
+    <div class="cards">
+      <div class="card">⚡ Fast Charging Alternative</div>
+      <div class="card">🔄 Unlimited Range Possibility</div>
+      <div class="card">🌱 Eco-Friendly Infrastructure</div>
+      <div class="card">🏭 Easy Fleet Management</div>
+    </div>
+  </section>
+
+  <section id="gallery" class="content-section">
+    <h2>Gallery</h2>
+    <p>Explore real EV battery swapping solutions and designs.</p>
+    <div class="gallery">
+      <img src="Battery-Recycling.jpg" alt="EV Battery"/>
+      <img src="pjimage___2022_02_02T164044_092.avif" alt="Battery Station"/>
+      <img src="images.jpeg" alt="Charging Hub"/>
+    </div>
+  </section>
+
+  <section id="quiz" class="content-section">
+    <h2>Quick Quiz</h2>
+    <p>Test your EV battery swapping knowledge!</p>
+    <button onclick="startQuiz()">Start Quiz</button>
+    <div id="quiz-box" class="quiz-box hidden">
+      <p id="question"></p>
+      <div id="answers"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made by Tarun</p>
+  </footer>
+</body>
+</html>
